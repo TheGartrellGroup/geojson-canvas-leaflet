@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geojson Canvas Demo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css"/>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map, .leaflet-map-pane{
+            height: 100%;
+            width: 100%;
+        }
+        .leaflet-tile-pane.points {
+            z-index: 6;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="map"></div>
+</body>
+
+<script src="bower_components/leaflet/dist/leaflet.js"></script>
+<script src="bower_components/Leaflet-Fullcanvas/src/fullcanvas.js"></script>
+<script src="bower_components/leaflet-canvas-geojson/dist/leaflet-canvas-geojson.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="map.js"></script>
+
+</html>

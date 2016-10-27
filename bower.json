@@ -1,0 +1,29 @@
+{
+  "name": "geojson-canvas",
+  "authors": [
+    "The Gartrell Group"
+  ],
+  "description": "To efficiently display large polygon, line string, and point geojson files",
+  "main": "index.html",
+  "keywords": [
+    "geojson",
+    "canvas",
+    "leaflet"
+  ],
+  "license": "ICS",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "0.7.7",
+    "jquery": "2.2.4",
+    "leaflet-canvas-geojson": "git://github.com/TheGartrellGroup/leaflet-canvas-geojson.git#master",
+    "Leaflet-Fullcanvas": "git://github.com/TheGartrellGroup/Leaflet-Fullcanvas.git#master"
+  }
+}
