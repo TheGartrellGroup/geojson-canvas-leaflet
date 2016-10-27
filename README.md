@@ -1,6 +1,6 @@
 # Geojson-Canvas
 
-Leveraging two libraries, a [modified version](https://github.com/TheGartrellGroup/leaflet-canvas-geojson) of [leaflet-canvas-geojson](https://github.com/ucd-cws/leaflet-canvas-geojson) and a [modified version](https://github.com/TheGartrellGroup/Leaflet-Fullcanvas)  [Leaflet-Fullcanvas](https://github.com/cyrilcherian/Leaflet-Fullcanvas) to render geojson featuerCollections as HTML5 canvas elements.
+Example app leveraging two libraries, a [modified version](https://github.com/TheGartrellGroup/leaflet-canvas-geojson) of [leaflet-canvas-geojson](https://github.com/ucd-cws/leaflet-canvas-geojson) and a [modified version](https://github.com/TheGartrellGroup/Leaflet-Fullcanvas) of [Leaflet-Fullcanvas](https://github.com/cyrilcherian/Leaflet-Fullcanvas) to render geojson featuerCollections as HTML5 canvas elements.
 
 ##### Install:
 
